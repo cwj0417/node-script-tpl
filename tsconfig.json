@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "exclude": ["./tpl/**", "./dist/**"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src"
+  }
+}
